@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(28,36,46);
+    height: 48px;
+    padding: 16px 50px 16px 50px;
+    display: flex;
+}
+.logo-img{
+    width: 112px;
+    height: 35px;
+    top: 2px;
+}
+.lang-div{
+    font-family: Poppins;
+    font-size: 17px;
+    line-height: 24px;
+    color: white;
+    display : flex;
+    justify-content: center;
+    position: absolute;
+    top: 2px;
+}
+.lang{
+    justify-content: center;
+}
+.lang-signin{
+    display: flex;
+}
+.primevideo-image{
+    min-height: 500px;
+    background-repeat: no-repeat;
+    min-width: 300px;
+    overflow: hidden;
+    background-image: url("amazonshows.jpg");
+    background-size: cover;
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.main-body{
+    padding: 50px 5%;
+    display: flex;
+    align-items: center;
+}
+.welcome{
+    font-family: Noto Sans Display;
+    color: white;
+    line-height: 1.2!important;
+    font-weight: 550;
+    width: 616px;
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.terms{
+    font-family: Noto Sans Display;
+    color: white;
+    font-size: 20px;
+}
+.button{
+    padding: 16px 18px 16px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.div-button-text{
+    background-color: rgb(15,121,175);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 250px;
+}
+.button-text{
+    color: white;
+    font-size: 17px;
+    font-family: Noto Sans Display;
+    margin: 10px;
+}
+p{
+    margin-top: 25px;
+    font-family: Noto Sans Display;
+    color: white;
+}

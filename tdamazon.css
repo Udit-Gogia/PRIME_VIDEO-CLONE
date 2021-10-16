@@ -1,0 +1,277 @@
+@font-face {
+    font-family: Amazon Ember;
+    src: url("amazonrg.ttf") format('truetype');
+}
+body{
+    margin: 0;
+}
+.blue-part{
+    background-color: rgb(28,36,46);
+    height: 48px;
+    width: 93.3%;
+    padding: 16px 50px;
+    display: flex;
+    position: fixed;
+    justify-content: flex-start;
+}
+.rest{
+    padding-top: 5.2%;
+}
+.h1{
+    font-size: 40px;
+}
+.amazon-logo{
+    width: 500px;
+    margin-left: -200px;
+}
+.amazon-movies{
+    background-color: black;
+    background-image:  linear-gradient(to right, #000 40%, transparent 58%),url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/1102620_MLP_1440x675_apv189_V3._CB640707072_.jpg");
+    background-position: right top;
+    height: 505px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    padding: 50px 5%;
+    display: flex;
+    flex-direction: column;
+}
+.wel-but-text{
+    padding-right: 55%;
+}
+.globe{
+    left: 87%;
+    top: 37%;
+    position: absolute;
+}
+.text{
+    color: white;
+    font-family: Roboto;
+    line-height: 1.2!important;
+    font-size: 40px;
+    font-weight: 550;
+    margin-top: 80px;
+}
+.arrow-down{
+    position: absolute;
+    top: 50%;
+    left: 91%;
+    border-top: 4.3px solid #8197a4;
+    border-left: 4.3px solid transparent;
+    border-right: 4.3px solid transparent;
+}
+.lang-selector{
+    width: 53px;
+    height: 20px;
+    line-height: 24px;
+    color: rgba(242,244,246,0.9);
+    font-family: Poppins;
+    font-size: 17px;
+    position: absolute;
+    top: 37%;
+    left: 89%;
+}
+.sign-in{
+    font-family: Poppins;
+    position:absolute;
+    top: 37.2%;
+    left: 92.5%;
+    color: rgba(242,244,246,0.9);
+}
+p{
+    margin-top: 25px;
+    font-family: Poppins;
+    color: white;
+    font-size: 18px;
+}
+.but-link{
+    margin-top: 48px;
+    padding: 16px 18px;
+    width: 244px;
+    text-align: center;
+    background-color: rgb(15,121,175);
+    font-size: 17px;
+}
+.but-text{
+    font-family: Poppins;
+    font-size: 18px;
+    color: white;
+    line-height: 22px;
+    margin: 0;
+}
+.a-but-link{
+    text-decoration: none;
+}
+.channels{
+    display: flex;
+    padding: 10px 5%;
+}
+.text-channels{
+    margin-top: 24px;
+}
+.text-heading{
+    margin: 34px 0 20px;
+    padding-top: 34px;
+    line-height:1.2!important;
+    font-size: 37px;
+    font-family: Poppins;
+}
+.text-text{
+    margin-top: 25px;
+    font-family: Poppins;
+    color: black;
+    font-size: 18px;
+}
+.channels-links{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 90px;
+}
+.links{
+    width: 200px;
+    height: 135px;
+    margin: 7px;
+}
+.links:hover{
+    box-shadow: 15px 15px 10px #4d4a4a;
+}
+.channels-links-1{
+    display: flex;
+}
+.channels-links-images{
+    width: 200px;
+    height: 135px;
+    margin: 7px;
+}
+.div-black-part{
+    display: flex;
+    flex-flow: column wrap;
+}
+.black-part-1{
+    background-color: black;
+    padding: 50px 5%;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%),url("blackpart1.jpg");
+    object-fit: fill;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.text-black-part-1{
+    padding-right: 55%;
+}
+.heading-black-part-1{
+    color: white;
+    font-family: Noto Sans Display;
+    line-height: 1.2!important;
+    font-size: 40px;
+    font-weight: 550;
+}
+.info-black-part-1{
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.div-more-info{
+    padding-top: 5%;
+}
+.more-info{
+    margin: 0 0 15px 0 ;
+    font-family: Poppins;
+    font-size: 13px;
+}
+.black-part-2{
+    background-color: black;
+    padding: 0 50px 0 5%;
+    height: 500px;
+    background-image: url("fire-tv-stick.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.text-black-part-2{
+    padding-left: 55%;
+}
+.heading-black-part-2{
+    color: white;
+    font-family: Noto Sans Display;
+    line-height: 1.2!important;
+    font-size: 40px;
+    font-weight: 550;
+}
+.info-black-part-2{
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.white-part{
+    padding: 60px 5% 30px 5%;
+}
+.three-imgs{
+    display: flex;
+    justify-content: space-between;
+  }
+.content_one{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 29%;
+}
+.heading-content_one{
+    line-height: 1.3;
+    color: black;
+    font-size: 36px;
+    font-family: Noto Sans Display;
+    font-weight: 400;
+    margin: 10px 0 10px 0;
+}
+.info-content_one{
+    font-size: 17px;
+    line-height: 25px;
+    color: black;
+    margin: auto;
+}
+.img-content_one{
+    height: 300px;
+    width: 300px;
+    padding-left: 40px;
+}
+.family{
+    font-family: Poppins;
+    background-color: black;
+    background-image: url("last part.jpg");
+    background-position: right top;
+    height: 505px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    font-family: Poppins;
+    background-color: rgb(34,34,34);
+    padding: 24px;
+    color: rgb(177,177,177);
+    text-align: center;
+    line-height: 20px;
+}
+ul{
+    font-size: 15px;
+    list-style: none;
+    display: inline-flex;
+    padding: 4px;
+    font-size: 15px;
+}
+.footer-text{
+    height: 40px;
+}
+.footer-link{
+    color: rgb(15,121,175);
+    line-height: 20px;
+    text-decoration: none;
+    padding: 4px;
+}
+.copyright{
+    font-size: 15px;
+    margin: 0;
+    color: rgb(177,177,177);
+}
